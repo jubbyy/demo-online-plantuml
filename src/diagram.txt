@@ -1,0 +1,13 @@
+```plantuml
+@startuml
+actor User as U
+node "Bookstore.nstda" as B
+node "NSTDA Shop" as L
+
+U -> B: open web
+U -> B: Sign UP
+U -> B: Reset Password
+U -> L: Redirect to 
+
+@enduml
+```
